@@ -1,0 +1,151 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="/dist/output.css" rel="stylesheet">
+  <title>Dung-project</title>
+</head>
+<body>
+    <div class="wrapper box-border bg-slate-200 flex">
+        <div class="sidebar w-56 bg-slate-100 h-auto shadow-md ">
+          <div class="sildebar-logo ">
+            <h2 class="text-base">Vuexy</h2>
+            
+          </div>
+          <div class="sildebar-content">
+            <ul class="">
+              <li>Dash board</li>
+              <li>Dash board</li>
+              <li>Dash board</li>
+              <li>Dash board</li>
+              <li>Dash board</li>
+              <li>Dash board</li>
+              <li>Dash board</li>
+              <li>Dash board</li>
+              <li>Dash board</li>
+              <li>Dash board</li>
+              <li>Dash board</li>
+              <li>Dash board</li>
+              <li>Dash board</li>
+              <li>Dash board</li>
+              <li>Dash board</li>
+              <li>Dash board</li>
+              <li>Dash board</li>
+              <li>Dash board</li>
+              <li>Dash board</li>
+              <li>Dash board</li>
+            </ul>
+  
+          </div>
+        </div>
+        <div class="container w-4/5 h-full">
+          <div class="search-bar flex">
+            <input type="text" placeholder="Search" class="border-none bg-slate-50 w-11/12 mx-auto items-center my-4 py-3 rounded-2xl">
+          </div>
+          <span class="">User profile/Profile</span>
+          <div class="container-slide w-11/12 mx-auto my-3 relative bg-white rounded-xl">
+            <img class="rounded-t-xl" src="https://demos.pixinvent.com/vuexy-html-admin-template/assets/img/pages/profile-banner.png" alt="" >
+            <div class="ctn-slide-info flex justify-around pb-2">
+              <img class="absolute left-16 bottom-6" src="https://demos.pixinvent.com/vuexy-html-admin-template/assets/img/avatars/14.png" alt="">
+              <div class="info-nameav">
+                <div class="info-name py-2">John Doe</div>
+              <div class="info-news mt-3">
+                <ul class="flex">
+                  <li class="mx-1">UX Designner</li>
+                  <li class="mx-1">Hanoi City</li>
+                  <li class="mx-1">Join april 2020</li>
+                </ul>
+              </div>
+              </div>
+              <button class="border-solid border-2 px-8 py-1  rounded-xl bg-violet-500 text-white leading-3"><p>Connected</p></button>
+            </div>
+          </div>
+  
+          <div class="container-tab my-6 w-11/12 mx-auto">
+            <a href="#" class=" myProfile px-2 rounded-xl hover:bg-violet-500 py-2 pl-9 " onclick="changeProfile()" >Profile</a>
+            <a href="#" class=" team px-2 rounded-xl hover:bg-violet-500 py-2" onclick="changeTeam()">Team</a>
+            <a href="#" class=" project px-2 rounded-xl hover:bg-violet-500 py-2" onclick="changeProject()">Project</a>
+            <a href="#" class=" connect px-2 rounded-xl hover:bg-violet-500 py-2" onclick="changeConnect()">Connections</a>
+          </div>
+         
+          <div id="content" class="transition-transform" >
+            <div class="connection h-max w-11/12 mx-auto flex flex-wrap px-1 py-1">
+                <div style="width: 30%;" class="connect-item max-h-max mt-2 rounded-lg mx-3 px-3 py-4 bg-white flex flex-col items-center text-center">
+                    <img class="w-20" style="border-radius: 40px;" src="https://demos.pixinvent.com/vuexy-html-admin-template/assets/img/avatars/3.png" alt="">
+                    <div class="con-name font-medium text-2xl">Mark Gilbert</div>
+                    <div class="job-name text-zinc-500">UI Designner</div>
+                    <div class="skill my-2">
+                        <a href="#" class="rounded-xl px-2 py-1 text-slate-700 bg-slate-400">Figma</a>
+                        <a href="#" class=" rounded-xl px-2 py-1 text-orange-500 bg-orange-300">Sketch</a>
+                    </div>
+                    <div class="describle">Im get 3 exp, develop new features SO YOU CAN in React.</div>
+                    <button class="px-4 py-1 bg-violet-300 text-white rounded-xl">Connected</button>
+                </div>
+                <div style="width: 30%;" class="connect-item max-h-max mt-2 rounded-lg mx-3 px-3 py-4 bg-white flex flex-col items-center text-center">
+                    <img class="w-20" style="border-radius: 40px;" src="https://demos.pixinvent.com/vuexy-html-admin-template/assets/img/avatars/3.png" alt="">
+                    <div class="con-name font-medium text-2xl">Mark Gilbert</div>
+                    <div class="job-name text-zinc-500">UI Designner</div>
+                    <div class="skill my-2">
+                        <a href="#" class="rounded-xl px-2 py-1 text-slate-700 bg-slate-400">Figma</a>
+                        <a href="#" class=" rounded-xl px-2 py-1 text-orange-500 bg-orange-300">Sketch</a>
+                    </div>
+                    <div class="describle">Im get 3 exp, develop new features SO YOU CAN in React.</div>
+                    <button class="px-4 py-1 bg-violet-300 text-white rounded-xl">Connected</button>
+                </div>
+                <div style="width: 30%;" class="connect-item max-h-max mt-2 rounded-lg mx-3 px-3 py-4 bg-white flex flex-col items-center text-center">
+                    <img class="w-20" style="border-radius: 40px;" src="https://demos.pixinvent.com/vuexy-html-admin-template/assets/img/avatars/3.png" alt="">
+                    <div class="con-name font-medium text-2xl">Mark Gilbert</div>
+                    <div class="job-name text-zinc-500">UI Designner</div>
+                    <div class="skill my-2">
+                        <a href="#" class="rounded-xl px-2 py-1 text-slate-700 bg-slate-400">Figma</a>
+                        <a href="#" class=" rounded-xl px-2 py-1 text-orange-500 bg-orange-300">Sketch</a>
+                    </div>
+                    <div class="describle">Im get 3 exp, develop new features SO YOU CAN in React.</div>
+                    <button class="px-4 py-1 bg-violet-300 text-white rounded-xl">Connected</button>
+                </div>
+                <div style="width: 30%;" class="connect-item max-h-max mt-2 rounded-lg mx-3 px-3 py-4 bg-white flex flex-col items-center text-center">
+                    <img class="w-20" style="border-radius: 40px;" src="https://demos.pixinvent.com/vuexy-html-admin-template/assets/img/avatars/3.png" alt="">
+                    <div class="con-name font-medium text-2xl">Mark Gilbert</div>
+                    <div class="job-name text-zinc-500">UI Designner</div>
+                    <div class="skill my-2">
+                        <a href="#" class="rounded-xl px-2 py-1 text-slate-700 bg-slate-400">Figma</a>
+                        <a href="#" class=" rounded-xl px-2 py-1 text-orange-500 bg-orange-300">Sketch</a>
+                    </div>
+                    <div class="describle">Im get 3 exp, develop new features SO YOU CAN in React.</div>
+                    <button class="px-4 py-1 bg-violet-300 text-white rounded-xl">Connected</button>
+                </div>
+                <div style="width: 30%;" class="connect-item max-h-max mt-2 rounded-lg mx-3 px-3 py-4 bg-white flex flex-col items-center text-center">
+                    <img class="w-20" style="border-radius: 40px;" src="https://demos.pixinvent.com/vuexy-html-admin-template/assets/img/avatars/3.png" alt="">
+                    <div class="con-name font-medium text-2xl">Mark Gilbert</div>
+                    <div class="job-name text-zinc-500">UI Designner</div>
+                    <div class="skill my-2">
+                        <a href="#" class="rounded-xl px-2 py-1 text-slate-700 bg-slate-400">Figma</a>
+                        <a href="#" class=" rounded-xl px-2 py-1 text-orange-500 bg-orange-300">Sketch</a>
+                    </div>
+                    <div class="describle">Im get 3 exp, develop new features SO YOU CAN in React.</div>
+                    <button class="px-4 py-1 bg-violet-300 text-white rounded-xl">Connected</button>
+                </div>
+                <div style="width: 30%;" class="connect-item max-h-max mt-2 rounded-lg mx-3 px-3 py-4 bg-white flex flex-col items-center text-center">
+                    <img class="w-20" style="border-radius: 40px;" src="https://demos.pixinvent.com/vuexy-html-admin-template/assets/img/avatars/3.png" alt="">
+                    <div class="con-name font-medium text-2xl">Mark Gilbert</div>
+                    <div class="job-name text-zinc-500">UI Designner</div>
+                    <div class="skill my-2">
+                        <a href="#" class="rounded-xl px-2 py-1 text-slate-700 bg-slate-400">Figma</a>
+                        <a href="#" class=" rounded-xl px-2 py-1 text-orange-500 bg-orange-300">Sketch</a>
+                    </div>
+                    <div class="describle">Im get 3 exp, develop new features SO YOU CAN in React.</div>
+                    <button class="px-4 py-1 bg-violet-300 text-white rounded-xl">Connected</button>
+                </div>
+            </div>
+          </div>
+        
+         
+          
+        </div>
+  
+        
+      </div>
+      <script src="main.js"></script>
+</body>
+</html>
